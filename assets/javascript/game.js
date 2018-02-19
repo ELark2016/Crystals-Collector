@@ -47,12 +47,19 @@ function addArrayValues (total, num) {
     return total + num; 
 }
 //calculates totalScore per entry
+
+// Issue: totalScore function is not being called; but it works
+// Issue: button value changes each time you click; need it to stay same for current game and reset for next game (for loop)
 function totalScore () {
-    if (userEntryArray !== "") {
     var arrayTotal = userEntryArray.reduce(addArrayValues);//using reduce method to reduce array into a single value by calling a function that adds all the values in the array
     $("#total-score").text(arrayTotal);
-    console.log ("total score: " + arrayTotal);
-    }  
+    console.log ("total score: " + arrayTotal); 
+        // if (arrayTotal === randomStartNum) {
+        //     alert("you win!");
+        // }
+        // else if(arrayTotal > randomStartNum) {
+        //     alert ("you lose!");
+        // }
 }
 
 
