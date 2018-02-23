@@ -52,7 +52,7 @@ $(document).ready(function() {
 // randomly selects a number between 19 - 120
 function randomNum () {
     randomStartNum = Math.floor(Math.random() * (120 - 19) + 19);
-    $("#random-num").text("Target Number: " + randomStartNum); 
+    $("#random-num").text(randomStartNum); 
     
 }
 // Adds values in array by adding cumulative total to the next avail number until reaches end of array
