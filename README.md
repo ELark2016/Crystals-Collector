@@ -2,7 +2,8 @@
 
 Click here to start the game: https://elark2016.github.io/Crystals-Collector/
 
-#Game Instructions
+# Game Instructions
+
 You will be given a random number at the start of the game.
 
 Four crystals will be displayed. By clicking on a crystal, you will add a specific number of points to your total score.
